@@ -43,7 +43,7 @@ resource "aws_instance" "example" {
 }
 
 resource "aws_security_group" "sg_8080" {
-  name = "Web Access"
+  name = "terraform-learn-state-sg-8080"
   ingress {
     from_port   = "8080"
     to_port     = "8080"
